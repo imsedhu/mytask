@@ -1,0 +1,23 @@
+body {  
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  height: 100vh;
+  background: linear-gradient(to right, antiquewhite, rgb(243, 195, 133));
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+ }
+
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

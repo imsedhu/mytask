@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 500;
+  background-color: rgb(250, 214, 167);
+  /*background-color: rgb(232, 206, 172);*/
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 100px;
+  justify-content: space-evenly;
+  width: 400px;
+}
+.left p {
+  font-weight: bold;
+}
+
+.left img {
+  width: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 3000px;
+  background-color: rgb(233, 228, 228);
+}
+
+.right img {
+  margin-right: 80px;
+}

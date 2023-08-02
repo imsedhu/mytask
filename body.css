@@ -1,0 +1,131 @@
+.text-1 {
+  display: flex;
+  transform: translate(150px, 10px);
+}
+.first-section {
+  margin-top: 70px;
+  overflow: hidden;
+}
+.text-1 p,
+.text-2 p,
+.p3 {
+  font-size: 100px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.side-bar {
+  display: flex;
+  width: 450px;
+  height: 400px;
+  display: inline-block;
+  margin-left: 0px;
+  position: relative;
+}
+
+.p3 {
+  position: absolute;
+  top: 330px;
+  left: 250px;
+}
+
+.side-bar img {
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+.text-2 {
+  display: flex;
+  display: inline-block;
+  transform: translateY(-300px);
+}
+.text-box {
+  display: flex;
+  flex-direction: column;
+  transform: translate(700px, -195px);
+}
+.text-box p {
+  font-weight: 400;
+  margin-bottom: 8px;
+  margin-top: 0px;
+  font-size: 25px;
+}
+.slider {
+  background-color: black;
+  padding: 3px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 740px;
+  transform: translateY(-120px);
+  display: flex;
+  flex: 1fr;
+}
+.slider-text {
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
+  white-space: nowrap;
+  animation: scroll-left 10s linear infinite;
+}
+@keyframes scroll-left {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      /* Set the value based on the total width of all li elements to create a loop */
+      transform: translateX(-100%);
+  }
+}
+.star {
+  color: orangered;
+}
+.image-box1,
+.image-box2,
+.image-box3,
+.image-box4 {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 300px;
+}
+.image-box1 {
+  transform: translate(450px, 100px);
+  margin-left: 300px;
+}
+.image-box2,
+.image-box4 {
+  transform: translate(750px, -50px);
+  margin-left: 750px;
+}
+.image-box3 {
+  transform: translate(250px, 100px);
+  margin-left: 300px;
+}
+.image-container {
+  height: 400px;
+  width: 300px;
+}
+.image-container img {
+  height: 400px;
+  width: 300px;
+  border-radius: 5px;
+}
+.content {
+  height: 400px;
+  width: 300px;
+}
+.content p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.our-service {
+  font-size: 20px;
+}
+.service {
+ font-weight: bold;
+ font-size: 40px;
+}
